@@ -55,6 +55,7 @@ class TicTacToe:
         if win:
             return win
 
+
         win = True # checking diagonals form right to left
         for i in range(n):
             if self.board[i][n - 1 - i] != player:
